@@ -13,10 +13,46 @@ This project is a Flutter application that helps keep track of expenses and also
 
 ## Preview
 
-<img src="https://github.com/RanjanKiran707/cash_recorder/screenshots/1.jpeg" width="32%"> <img src"https://github.com/RanjanKiran707/cash_recorder/screenshots/1.jpeg" width="32%">
-<img src="https://github.com/RanjanKiran707/cash_recorder/screenshots/1.jpeg" width="32%"> <img src"https://github.com/RanjanKiran707/cash_recorder/screenshots/1.jpeg" width="32%">
-<img src="https://github.com/RanjanKiran707/cash_recorder/screenshots/1.jpeg" width="32%"> <img src"https://github.com/RanjanKiran707/cash_recorder/screenshots/1.jpeg" width="32%">
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/RanjanKiran707/cash_recorder/main/screenshots/6.jpeg" width="50%">
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/RanjanKiran707/cash_recorder/main/screenshots/5.jpeg" width="50%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/RanjanKiran707/cash_recorder/main/screenshots/4.jpeg" width="50%">
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/RanjanKiran707/cash_recorder/main/screenshots/3.jpeg" width="50%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/RanjanKiran707/cash_recorder/main/screenshots/2.jpeg" width="50%">
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/RanjanKiran707/cash_recorder/main/screenshots/1.jpeg" width="50%">
+    </td>
+  </tr>
+</table>
 
+## Technologies & Architecture
+
+The project uses a number of cutting edge technologies and architectural patterns:
+
+:dart: **[Flutter](https://flutter.dev/)** - The project is built entirely with Flutter SDK.
+
+:framed_picture: **[Material 3](https://m3.material.io/)** - We've incorporated the latest Material 3 design for an aesthetically pleasing and smooth user experience.
+
+:package: **[BLoC](https://bloclibrary.dev/)** - For efficient state management, the BLoC pattern is used in this project.
+
+:file_cabinet: **[Isar](https://isar.dev/)** - The local database is managed using Isar, an easy-to-use, high-performance database.
+
+:building_construction: **MVVM Architecture** - The codebase follows the MVVM (Model-View-ViewModel) architecture to ensure separation of concerns, maintainability, and testability.
 
 ## Building from Source
 
