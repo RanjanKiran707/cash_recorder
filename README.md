@@ -1,4 +1,4 @@
-# Project Name
+# Cash Recorder
 [![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![GitHub stars](https://img.shields.io/github/stars/RanjanKiran707/cash_recorder) ![GitHub forks](https://img.shields.io/github/forks/RanjanKiran707/cash_recorder) ![GitHub issues](https://img.shields.io/github/issues/RanjanKiran707/cash_recorder)
