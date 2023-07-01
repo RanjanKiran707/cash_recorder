@@ -15,13 +15,13 @@ class ParticularDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: const Text('Add Particular'),
+      title: const Text('Add Record'),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           TextField(
             decoration: const InputDecoration(
-              labelText: 'Particular Name',
+              labelText: 'Record Name',
             ),
             controller: ctrl1,
             autofocus: true,
