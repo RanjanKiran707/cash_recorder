@@ -1,20 +1,20 @@
 name: Flutter WorkFlow
 
 on: [push]
-  jobs:
-    build:
-      runs-on: macos-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v3
-        - name: Install Java
-          uses: actions/setup-java@v2
-          with:
-            java-version: '12.x'
-        
-        - name: Install Flutter
-          uses: subosito/flutter-action@v1
-          with:
-            channel: 'stable'
-        - run: flutter pub get
-        - run: flutter build apk --release
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Java
+        uses: actions/setup-java@v2
+        with:
+          java-version: '12.x'
+      
+      - name: Install Flutter
+        uses: subosito/flutter-action@v1
+        with:
+          channel: 'stable'
+      - run: flutter pub get
+      - run: flutter build apk --release
